@@ -2,7 +2,7 @@ namespace LHPet.Models;
 
 public class Cliente
 {
-    public class Id { get; set; }
+    public int Id { get; set; }
     public string Nome { get; set; }
     public string Cpf { get; set; }
     public string Email { get; set; }
